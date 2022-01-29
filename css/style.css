@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 20px;
+    background-color: #e6eef7;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+
+.container{
+    height: 240px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+#cont-1{
+    position: relative;
+    background-color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#cont-1 h3{
+    color: hsl(179, 62%, 43%);
+}
+
+#description{
+    color: hsl(71, 70%, 54%);
+    font-weight: bold;
+}
+
+#desc{
+    font-size: 15px;
+    color: hsl(218, 22%, 67%);
+}
+
+#cont-2{
+    position: relative;
+    background-color: #2bb3b1;
+}
+
+#cont-3{
+    position: relative;
+    background-color:  #4abebd;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+#cont-2 h3{
+    color: white;
+}
+
+#price{
+    font-size: 30px;
+    color: white;
+    font-weight: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#desc-2{
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    top: 85px;
+    left: 25%;
+    color: hsl(204, 43%, 93%);
+}
+
+#cont-2 h4{
+    color: white;
+    font-weight: 100;
+}
+
+#sign-up{
+    position: absolute;
+    background-color: #bfdf32;
+    width: 85%;
+    left: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#sign-up:hover{
+    cursor: pointer;
+}
+
+#why{
+    color: white;
+    font-size: large;
+    font-weight: 700;
+}
+
+#desc-3{
+    color: #b1e9e8;
+    font-size: 15px;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+@media screen and (min-width: 1200px){
+    #cont-1{
+        position: relative;
+        top: 150px;
+        background-color: white;
+        width: 600px;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+    }
+    #cont-2{
+        position: relative;
+        background-color: #2bb3b1;
+        top: 150px;
+        left: -150px;
+        border-bottom-left-radius: 10px;
+    }
+    
+    #cont-3{
+        position: relative;
+        background-color:  #4abebd;
+        top: -90px;
+        right: -150px;
+        border-bottom-right-radius: 10px;
+        border-bottom-left-radius: 0;
+    }
+}
